@@ -233,10 +233,12 @@
                 <button on:click={parseSrcClickHandler}>播放</button>
             </div>
             <div>获取解析链接：</div>
-            <div class="row-container href-list">
+            <div class="flex-start row-container href-list">
                 <a href="https://pv.vlogdownloader.com/" target="_blank" style="color:lightskyblue">parsevideo</a>
                 <a href="https://superparse.com/zh" target="_blank" style="color:lightskyblue">superparse</a>
                 <a href="https://xbeibeix.com/api/bilibili/" target="_blank" style="color:lightskyblue">贝贝bilibili</a>
+            </div>
+            <div class="row-container flex-start href-list">
                 <a href="http://zhouql.vip/bilibili/" target="_blank" style="color:lightskyblue">zhouql_bilibili</a>
             </div>
         </div>
@@ -274,6 +276,9 @@
     .main-container{
         z-index: 0;
         color: white;
+    }
+    .flex-start{
+        justify-content: flex-start !important;
     }
     .container {
         height: 100%;
@@ -318,6 +323,7 @@
 
     .href-list > * {
         min-width: fit-content;
+        margin: 0 1rem;
     }
 
     .label-btn {
