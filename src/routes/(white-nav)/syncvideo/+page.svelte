@@ -237,6 +237,7 @@
                 <a href="https://pv.vlogdownloader.com/" target="_blank" style="color:lightskyblue">parsevideo</a>
                 <a href="https://superparse.com/zh" target="_blank" style="color:lightskyblue">superparse</a>
                 <a href="https://xbeibeix.com/api/bilibili/" target="_blank" style="color:lightskyblue">贝贝bilibili</a>
+                <a href="http://zhouql.vip/bilibili/" target="_blank" style="color:lightskyblue">zhouql_bilibili</a>
             </div>
         </div>
         <div class="col-container">
